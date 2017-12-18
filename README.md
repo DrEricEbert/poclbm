@@ -174,3 +174,23 @@ This is very early software, so any bug reports are appreciated. Issues and
 forks can be created at:
 
     https://github.com/Kiv/poclbm    
+
+
+
+GUIminer can be run on linux, although the process (described in the official thread) is somewhat complicated. To summarise that post, you will need to:
+
+    Get the source code from GitHub:
+
+    git clone https://github.com/Kiv/poclbm
+    Install OpenCL drivers and PyOpenCL.
+
+    Install wxPython:
+
+    sudo apt-get install python-wxtools
+
+    Run guiminer.py:
+
+    python guiminer.py
+
+Note that (at least to use the poclbm backend) no compiling is necessary since GUIminer is written in python. But I can still understand if you find that process a little daunting, since I don't know your level of technological familiarity with these sorts of tasks.
+
